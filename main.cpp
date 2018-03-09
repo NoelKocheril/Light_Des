@@ -49,9 +49,9 @@ int main(int argc, char* argv[]) {
         for(int j = 0; j < 8;j++) roundKeys[i][j] = key[(i+j)%9];
         cout << roundKeys[i] << endl;
     }
-    bitset<8> **Keys;
-    Keys = genKeys(dec);
-
+//    bitset<8> **Keys;
+//    Keys = genKeys(dec);
+    
     return 0;
 }
 
@@ -61,12 +61,5 @@ void pause(){
 }
 
 bitset<8> **genKeys(int dec) {
-    cout << "Inside GenKeys" << endl;
-    bitset<9> _key (dec);
-    cout << _key << endl;
-    bitset<8> **_roundKeys[9];
-
-
     return nullptr;
 }
-

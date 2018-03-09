@@ -1,3 +1,11 @@
+/**
+ * Light Des
+ * Purpose: Light Des Encryption
+ *
+ * @author Noel Kocheril
+ * @version 1.1 03/09/2018
+ */
+
 #include <iostream>
 #include <bitset>
 #include <fstream>
@@ -5,10 +13,15 @@
 
 using namespace std;
 
-void pause(){
-    cout << "Press Enter to Continue....";
-    cin.ignore( std::numeric_limits<std::streamsize>::max(), '\n' );
-}
+/**
+ * Pauses Program until "Enter" Key is pressed
+ * @param none
+ * @return none
+ *
+ */
+void pause();
+
+bitset<8> **genKeys(int dec);
 
 int main(int argc, char* argv[]) {
 //    pause();
@@ -30,12 +43,30 @@ int main(int argc, char* argv[]) {
 
     bitset<9> key (dec);
     cout << key << endl;
-    bitset<8> roundKey;
+    bitset<8> roundKeys[9];
     for(int i = 0; i < 9;i++){
-        cout << i << ": " << key[i] << endl;
-        for(int j = 0; j < 8;j++) roundKey[j] = key[(i+j)%9];
-        cout << roundKey << endl;
+        //cout << i << ": " << key[i] << endl;
+        for(int j = 0; j < 8;j++) roundKeys[i][j] = key[(i+j)%9];
+        cout << roundKeys[i] << endl;
     }
+    bitset<8> **Keys;
+    Keys = genKeys(dec);
+
     return 0;
+}
+
+void pause(){
+    cout << "Press Enter to Continue....";
+    cin.ignore( std::numeric_limits<std::streamsize>::max(), '\n' );
+}
+
+bitset<8> **genKeys(int dec) {
+    cout << "Inside GenKeys" << endl;
+    bitset<9> _key (dec);
+    cout << _key << endl;
+    bitset<8> **_roundKeys[9];
+
+
+    return nullptr;
 }
 

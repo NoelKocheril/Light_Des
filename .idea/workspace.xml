@@ -15,10 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2138a49c-a79c-4235-8f46-55a2cdffa4c4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin_test.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin_test.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Light_DES.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Light_DES.dir/DependInfo.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Light_DES.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Light_DES.dir/build.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Light_DES.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Light_DES.dir/cmake_clean.cmake" />
@@ -28,7 +25,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Light_DES.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Light_DES.cbp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -199,7 +195,7 @@
       <workItem from="1517928675554" duration="431000" />
       <workItem from="1519827954878" duration="73000" />
       <workItem from="1520347943238" duration="43000" />
-      <workItem from="1520600669483" duration="5781000" />
+      <workItem from="1520600669483" duration="5852000" />
     </task>
     <task id="LOCAL-00001" summary="vcs.xml">
       <created>1520600907733</created>
@@ -208,11 +204,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520600907733</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="bin_test initial">
+      <created>1520607330884</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1520607330884</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27351000" />
+    <option name="totallyTimeSpent" value="27422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1242" extended-state="6" />
@@ -247,7 +250,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="vcs.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="vcs.xml" />
+    <MESSAGE value="bin_test initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="bin_test initial" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

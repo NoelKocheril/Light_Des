@@ -51,7 +51,7 @@ int main(int argc, char* argv[]) {
     }
 //    bitset<8> **Keys;
 //    Keys = genKeys(dec);
-    
+
     return 0;
 }
 

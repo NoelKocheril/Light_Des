@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Light_DES.dir/main.cpp.obj"
+  "CMakeFiles/Light_DES.dir/bin_test.cpp.obj"
   "Light_DES.pdb"
   "Light_DES.exe"
   "Light_DES.exe.manifest"

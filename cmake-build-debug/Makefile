@@ -122,6 +122,33 @@ Light_DES/fast:
 	$(MAKE) -f CMakeFiles\Light_DES.dir\build.make CMakeFiles/Light_DES.dir/build
 .PHONY : Light_DES/fast
 
+bin_test.obj: bin_test.cpp.obj
+
+.PHONY : bin_test.obj
+
+# target to build an object file
+bin_test.cpp.obj:
+	$(MAKE) -f CMakeFiles\Light_DES.dir\build.make CMakeFiles/Light_DES.dir/bin_test.cpp.obj
+.PHONY : bin_test.cpp.obj
+
+bin_test.i: bin_test.cpp.i
+
+.PHONY : bin_test.i
+
+# target to preprocess a source file
+bin_test.cpp.i:
+	$(MAKE) -f CMakeFiles\Light_DES.dir\build.make CMakeFiles/Light_DES.dir/bin_test.cpp.i
+.PHONY : bin_test.cpp.i
+
+bin_test.s: bin_test.cpp.s
+
+.PHONY : bin_test.s
+
+# target to generate assembly for a file
+bin_test.cpp.s:
+	$(MAKE) -f CMakeFiles\Light_DES.dir\build.make CMakeFiles/Light_DES.dir/bin_test.cpp.s
+.PHONY : bin_test.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... Light_DES
 	@echo ... rebuild_cache
+	@echo ... bin_test.obj
+	@echo ... bin_test.i
+	@echo ... bin_test.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

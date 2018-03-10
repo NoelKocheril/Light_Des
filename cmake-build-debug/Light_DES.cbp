@@ -126,6 +126,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/noelk/CLionProjects/Light_DES/DES.h">
+			<Option target="Light_DES"/>
+		</Unit>
 		<Unit filename="C:/Users/noelk/CLionProjects/Light_DES/bin_test.cpp">
 			<Option target="bin_test"/>
 		</Unit>

@@ -122,13 +122,26 @@ Light_DES/fast:
 	$(MAKE) -f CMakeFiles\Light_DES.dir\build.make CMakeFiles/Light_DES.dir/build
 .PHONY : Light_DES/fast
 
+#=============================================================================
+# Target rules for targets named bin_test
+
+# Build rule for target.
+bin_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 bin_test
+.PHONY : bin_test
+
+# fast build rule for target.
+bin_test/fast:
+	$(MAKE) -f CMakeFiles\bin_test.dir\build.make CMakeFiles/bin_test.dir/build
+.PHONY : bin_test/fast
+
 bin_test.obj: bin_test.cpp.obj
 
 .PHONY : bin_test.obj
 
 # target to build an object file
 bin_test.cpp.obj:
-	$(MAKE) -f CMakeFiles\Light_DES.dir\build.make CMakeFiles/Light_DES.dir/bin_test.cpp.obj
+	$(MAKE) -f CMakeFiles\bin_test.dir\build.make CMakeFiles/bin_test.dir/bin_test.cpp.obj
 .PHONY : bin_test.cpp.obj
 
 bin_test.i: bin_test.cpp.i
@@ -137,7 +150,7 @@ bin_test.i: bin_test.cpp.i
 
 # target to preprocess a source file
 bin_test.cpp.i:
-	$(MAKE) -f CMakeFiles\Light_DES.dir\build.make CMakeFiles/Light_DES.dir/bin_test.cpp.i
+	$(MAKE) -f CMakeFiles\bin_test.dir\build.make CMakeFiles/bin_test.dir/bin_test.cpp.i
 .PHONY : bin_test.cpp.i
 
 bin_test.s: bin_test.cpp.s
@@ -146,7 +159,7 @@ bin_test.s: bin_test.cpp.s
 
 # target to generate assembly for a file
 bin_test.cpp.s:
-	$(MAKE) -f CMakeFiles\Light_DES.dir\build.make CMakeFiles/Light_DES.dir/bin_test.cpp.s
+	$(MAKE) -f CMakeFiles\bin_test.dir\build.make CMakeFiles/bin_test.dir/bin_test.cpp.s
 .PHONY : bin_test.cpp.s
 
 main.obj: main.cpp.obj
@@ -184,6 +197,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... Light_DES
+	@echo ... bin_test
 	@echo ... rebuild_cache
 	@echo ... bin_test.obj
 	@echo ... bin_test.i

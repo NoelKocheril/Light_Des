@@ -55,11 +55,13 @@ int main(int argc, char* argv[]) {
     return 0;
 }
 
+//Waits for User to press enter
 void pause(){
     cout << "Press Enter to Continue....";
     cin.ignore( std::numeric_limits<std::streamsize>::max(), '\n' );
 }
 
+//Tries to Generate Key
 bitset<8> **genKeys(int dec) {
     return nullptr;
 }

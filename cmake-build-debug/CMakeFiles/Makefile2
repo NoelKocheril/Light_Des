@@ -65,7 +65,7 @@ CMAKE_BINARY_DIR = C:\Users\noelk\CLionProjects\Light_DES\cmake-build-debug
 CMakeFiles/Light_DES.dir/all:
 	$(MAKE) -f CMakeFiles\Light_DES.dir\build.make CMakeFiles/Light_DES.dir/depend
 	$(MAKE) -f CMakeFiles\Light_DES.dir\build.make CMakeFiles/Light_DES.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\noelk\CLionProjects\Light_DES\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Light_DES"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\noelk\CLionProjects\Light_DES\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Light_DES"
 .PHONY : CMakeFiles/Light_DES.dir/all
 
 # Include target in all.
@@ -102,7 +102,7 @@ clean: CMakeFiles/Light_DES.dir/clean
 CMakeFiles/bin_test.dir/all:
 	$(MAKE) -f CMakeFiles\bin_test.dir\build.make CMakeFiles/bin_test.dir/depend
 	$(MAKE) -f CMakeFiles\bin_test.dir\build.make CMakeFiles/bin_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\noelk\CLionProjects\Light_DES\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target bin_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\noelk\CLionProjects\Light_DES\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target bin_test"
 .PHONY : CMakeFiles/bin_test.dir/all
 
 # Include target in all.
@@ -129,6 +129,43 @@ CMakeFiles/bin_test.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/bin_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/LDes.dir
+
+# All Build rule for target.
+CMakeFiles/LDes.dir/all:
+	$(MAKE) -f CMakeFiles\LDes.dir\build.make CMakeFiles/LDes.dir/depend
+	$(MAKE) -f CMakeFiles\LDes.dir\build.make CMakeFiles/LDes.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\noelk\CLionProjects\Light_DES\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target LDes"
+.PHONY : CMakeFiles/LDes.dir/all
+
+# Include target in all.
+all: CMakeFiles/LDes.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/LDes.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\noelk\CLionProjects\Light_DES\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/LDes.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\noelk\CLionProjects\Light_DES\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/LDes.dir/rule
+
+# Convenience name for target.
+LDes: CMakeFiles/LDes.dir/rule
+
+.PHONY : LDes
+
+# clean rule for target.
+CMakeFiles/LDes.dir/clean:
+	$(MAKE) -f CMakeFiles\LDes.dir\build.make CMakeFiles/LDes.dir/clean
+.PHONY : CMakeFiles/LDes.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/LDes.dir/clean
 
 .PHONY : clean
 

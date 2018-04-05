@@ -17,7 +17,7 @@ int main(int argc, char *argv[]){
         printf("file '%s' does not exist", argv[1]);
         return -2;
     }
-    myFile.read(buffer,12);
+    myFile.read(buffer,BLK_SIZE);
     cout << buffer << endl;
     myFile.close();
     return 0;

@@ -115,6 +115,50 @@
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/noelk/CLionProjects/Light_DES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="LDes">
+				<Option output="C:/Users/noelk/CLionProjects/Light_DES/cmake-build-debug/LDes.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/noelk/CLionProjects/Light_DES/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/noelk/CLionProjects/Light_DES/cmake-build-debug/Makefile&quot;  VERBOSE=1 LDes"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/noelk/CLionProjects/Light_DES/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/noelk/CLionProjects/Light_DES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/noelk/CLionProjects/Light_DES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LDes/fast">
+				<Option output="C:/Users/noelk/CLionProjects/Light_DES/cmake-build-debug/LDes.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/noelk/CLionProjects/Light_DES/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/noelk/CLionProjects/Light_DES/cmake-build-debug/Makefile&quot;  VERBOSE=1 LDes/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/noelk/CLionProjects/Light_DES/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/noelk/CLionProjects/Light_DES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/noelk/CLionProjects/Light_DES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="C:/Users/noelk/CLionProjects/Light_DES/cmake-build-debug"/>
 				<Option type="4"/>
@@ -128,6 +172,12 @@
 		</Build>
 		<Unit filename="C:/Users/noelk/CLionProjects/Light_DES/DES.h">
 			<Option target="Light_DES"/>
+		</Unit>
+		<Unit filename="C:/Users/noelk/CLionProjects/Light_DES/LDes.cpp">
+			<Option target="LDes"/>
+		</Unit>
+		<Unit filename="C:/Users/noelk/CLionProjects/Light_DES/LDes.h">
+			<Option target="LDes"/>
 		</Unit>
 		<Unit filename="C:/Users/noelk/CLionProjects/Light_DES/bin_test.cpp">
 			<Option target="bin_test"/>

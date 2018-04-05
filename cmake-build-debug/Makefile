@@ -135,6 +135,46 @@ bin_test/fast:
 	$(MAKE) -f CMakeFiles\bin_test.dir\build.make CMakeFiles/bin_test.dir/build
 .PHONY : bin_test/fast
 
+#=============================================================================
+# Target rules for targets named LDes
+
+# Build rule for target.
+LDes: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 LDes
+.PHONY : LDes
+
+# fast build rule for target.
+LDes/fast:
+	$(MAKE) -f CMakeFiles\LDes.dir\build.make CMakeFiles/LDes.dir/build
+.PHONY : LDes/fast
+
+LDes.obj: LDes.cpp.obj
+
+.PHONY : LDes.obj
+
+# target to build an object file
+LDes.cpp.obj:
+	$(MAKE) -f CMakeFiles\LDes.dir\build.make CMakeFiles/LDes.dir/LDes.cpp.obj
+.PHONY : LDes.cpp.obj
+
+LDes.i: LDes.cpp.i
+
+.PHONY : LDes.i
+
+# target to preprocess a source file
+LDes.cpp.i:
+	$(MAKE) -f CMakeFiles\LDes.dir\build.make CMakeFiles/LDes.dir/LDes.cpp.i
+.PHONY : LDes.cpp.i
+
+LDes.s: LDes.cpp.s
+
+.PHONY : LDes.s
+
+# target to generate assembly for a file
+LDes.cpp.s:
+	$(MAKE) -f CMakeFiles\LDes.dir\build.make CMakeFiles/LDes.dir/LDes.cpp.s
+.PHONY : LDes.cpp.s
+
 bin_test.obj: bin_test.cpp.obj
 
 .PHONY : bin_test.obj
@@ -198,7 +238,11 @@ help:
 	@echo ... edit_cache
 	@echo ... Light_DES
 	@echo ... bin_test
+	@echo ... LDes
 	@echo ... rebuild_cache
+	@echo ... LDes.obj
+	@echo ... LDes.i
+	@echo ... LDes.s
 	@echo ... bin_test.obj
 	@echo ... bin_test.i
 	@echo ... bin_test.s
